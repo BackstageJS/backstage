@@ -11,7 +11,7 @@
     "url": "https://github.com/jessepinho/backstage/issues"
   },
   "homepage": "https://github.com/jessepinho/backstage#readme",
-  "dependencies": {
+  "devDependencies": {
     "gitbook-cli": "^2.3.2"
   }
 }
