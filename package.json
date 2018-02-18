@@ -1,0 +1,17 @@
+{
+  "name": "backstage",
+  "version": "1.0.0",
+  "description": "Docs for Backstage",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jessepinho/backstage.git"
+  },
+  "author": "Jesse Pinho <jesse@jessepinho.com>",
+  "bugs": {
+    "url": "https://github.com/jessepinho/backstage/issues"
+  },
+  "homepage": "https://github.com/jessepinho/backstage#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
