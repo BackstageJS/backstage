@@ -1,0 +1,22 @@
+{
+  "name": "backstage",
+  "version": "1.0.0",
+  "description": "Docs for Backstage",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jessepinho/backstage.git"
+  },
+  "scripts": {
+    "build": "gitbook build",
+    "deploy": "yarn run build && cp ./CNAME _book/CNAME && gh-pages deploy -d _book"
+  },
+  "author": "Jesse Pinho <jesse@jessepinho.com>",
+  "bugs": {
+    "url": "https://github.com/jessepinho/backstage/issues"
+  },
+  "homepage": "https://github.com/jessepinho/backstage#readme",
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "gitbook-cli": "^2.3.2"
+  }
+}
