@@ -28,9 +28,10 @@ const path = require('path')
 const { backstage } = require('backstage-server')
 const { fileSystem } = require('backstage-server/dist/storage-backends/file-system')
 
-const app = backstage(fileSystem(path.join(__dirname, '../files')))
+const fileDir = path.join(__dirname, '../files')
+const storageBackend = fileSystem(fileDir)
 
-app.listen(3000)
+backstage({ storageBackend }).listen(3000)
 ```
 
 (Note: this example can be cloned from the [`backstage-example` repo](https://github.com/jessepinho/backstage-example).)
