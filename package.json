@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "gitbook build",
-    "deploy": "yarn run build && cp ./CNAME _book/CNAME && gh-pages deploy -d _book"
+    "deploy": "yarn run build && cp ./CNAME _book/CNAME && gh-pages deploy -d _book",
+    "start": "gitbook serve"
   },
   "author": "Jesse Pinho <jesse@jessepinho.com>",
   "bugs": {
