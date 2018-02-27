@@ -34,7 +34,7 @@ const storageBackend = fileSystem(fileDir)
 backstage({ storageBackend }).listen(3000)
 ```
 
-(Note: this example can be cloned from the [`backstage-example` repo](https://github.com/jessepinho/backstage-example).)
+(Note: this example can be cloned from the [`backstage-example` repo](https://github.com/BackstageJS/backstage-example).)
 
 In this example, we import `backstage` from `backstage-server`. `backstage()` simply returns an instance of `Express`, which you can use just the same as if you'd imported it from Express via `const app = require('express')()`. However, it's been configured in `backstage-server` to include `cookie-parser`, as well as middleware for the storage backend that you pass it.
 
