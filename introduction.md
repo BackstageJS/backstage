@@ -15,3 +15,9 @@ http://my-backstage-instance/__backstage/go/awesome-app/<b>feature-branch-2</b>
 Backstage was made to solve the problem of allowing team members to QA new features of a front-end app before those features are merged into the main branch of the app's repo. With Backstage, you can deploy multiple branches to the same server, and they'll each be available at their own, unique URL.
 
 Interested? Read the [getting started guide](./getting-started.md)!
+
+## On GitHub
+
+* [backstage-server](https://github.com/BackstageJS/backstage-server) <i class="fa fa-external-link" />
+* [backstage-cli](https://github.com/BackstageJS/backstage-cli) <i class="fa fa-external-link" />
+* [backstage-example](https://github.com/BackstageJS/backstage-example) <i class="fa fa-external-link" />
