@@ -1,12 +1,16 @@
 {
   "plugins": [
     "edit-link",
+    "github",
     "-sharing"
   ],
   "pluginsConfig": {
     "edit-link": {
       "base": "https://github.com/BackstageJS/backstage/edit/master/",
       "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/BackstageJS"
     }
   },
   "structure": {
