@@ -1,4 +1,13 @@
 {
+  "plugins": [
+    "edit-link"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/BackstageJS/backstage/edit/master/",
+      "label": "Edit This Page"
+    }
+  },
   "structure": {
     "readme": "introduction.md"
   }
