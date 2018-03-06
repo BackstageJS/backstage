@@ -4,7 +4,7 @@
   "description": "Docs for Backstage",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jessepinho/backstage.git"
+    "url": "git+ssh://git@github.com/BackstageJS/backstage.git"
   },
   "scripts": {
     "build": "gitbook build",
@@ -13,11 +13,13 @@
   },
   "author": "Jesse Pinho <jesse@jessepinho.com>",
   "bugs": {
-    "url": "https://github.com/jessepinho/backstage/issues"
+    "url": "https://github.com/BackstageJS/backstage/issues"
   },
-  "homepage": "https://github.com/jessepinho/backstage#readme",
+  "homepage": "https://github.com/BackstageJS/backstage#readme",
   "devDependencies": {
     "gh-pages": "^1.1.0",
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-github": "2"
   }
 }
